@@ -7,6 +7,6 @@ Pod::Spec.new do |spec|
     spec.license      = "MIT"
     spec.author             = { "Emrah Korkmaz" => "emrahkrkmz1@gmail.com" }
     spec.source       = { :git => "https://github.com/eliakorkmaz/KiwanukaLogger.git", :tag => "#{spec.version}" }
-    spec.source_files  = "Sources/.{swift}"
+    spec.source_files  = "Sources/**/*.{swift}"
   end
   
